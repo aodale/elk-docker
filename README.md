@@ -56,6 +56,8 @@ $ source .dev.env
 4. Then, to start the containers, from the directory where the above downloaded `docker-compose.yml` is, run the following to start the stack.
 ```
 $ docker-compose up -d
+{ For the new docker you have to run docker compose without the spaces }
+docket compose up -d
 ```
 
 5. Wait for a a minute or two for the stack to start up. Optionally, you can tail the container logs to check when the services have started successfully.
